@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yassin Benhaida - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/icon.png">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- EmailJS SDK -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span>YB</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#skills" class="nav-link">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="nav-social">
+                <a href="https://github.com/yasohm" target="_blank" class="github-link" title="GitHub Profile">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Yassin Benhaida</span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span class="typing-text">Application Development Student</span>
+                </div>
+                <p class="hero-description">
+                    Passionate about software development, web technologies, and cybersecurity. 
+                    Building innovative solutions that make a difference.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="https://github.com/yasohm" target="_blank" class="btn btn-github">
+                        <i class="fab fa-github"></i>
+                        GitHub Profile
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-card">
+                    <div class="profile-avatar">
+                        <i class="fas fa-user-circle"></i>
+                    </div>
+                    <div class="profile-info">
+                        <h3>Yassin Benhaida</h3>
+                        <p>📍 Morocco</p>
+                        <p>🎓 BTS Application Development</p>
+                        <div class="status-badge">
+                            <span class="status-dot"></span>
+                            Available for opportunities
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate <strong>Application Development</strong> student pursuing my BTS degree. 
+                        I focus on software development and web technologies, with a keen interest in 
+                        cybersecurity as a hobby and talent.
+                    </p>
+                    <p>
+                        My journey in technology is driven by curiosity and a desire to create innovative 
+                        solutions that make a difference. I'm always exploring new technologies and 
+                        methodologies to stay current in this ever-evolving field.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <span>Full-Stack Development</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Cybersecurity Interest</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>Continuous Learning</span>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-users"></i>
+                            <span>Open Source Contributor</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <h3>1+</h3>
+                        <p>Years Experience</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>10+</h3>
+                        <p>Projects Completed</p>
+                    </div>
+                    <div class="stat-card">
+                        <h3>3+</h3>
+                        <p>Technologies Mastered</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-java"></i>
+                            <span>Java</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-microsoft"></i>
+                            <span>C#</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>C++</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-code"></i>
+                            <span>C</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML5</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases & Tools</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fas fa-database"></i>
+                            <span>MySQL</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-server"></i>
+                            <span>SQL Server</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-docker"></i>
+                            <span>Docker</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-git-alt"></i>
+                            <span>Git</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Other Technologies</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <i class="fab fa-linux"></i>
+                            <span>Linux</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-ubuntu"></i>
+                            <span>Ubuntu</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fab fa-microsoft"></i>
+                            <span>.NET</span>
+                        </div>
+                        <div class="skill-item">
+                            <i class="fas fa-fire"></i>
+                            <span>Firebase</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            
+            <!-- Featured Project -->
+            <div class="featured-project">
+                <div class="project-content">
+                    <div class="project-info">
+                        <h3>YASSIN HACK TOOLS</h3>
+                        <div class="project-badges">
+                            <span class="badge">Version 2.0</span>
+                            <span class="badge">GPL v3</span>
+                            <span class="badge">Ubuntu</span>
+                            <span class="badge">Python 3.x</span>
+                        </div>
+                        <p>
+                            A comprehensive penetration testing suite that transforms your Ubuntu system 
+                            into a powerful ethical hacking environment. Features 20+ security tools 
+                            including network scanning, web security testing, exploitation frameworks, 
+                            and social engineering tools.
+                        </p>
+                        <div class="project-features">
+                            <div class="feature">
+                                <i class="fas fa-network-wired"></i>
+                                <span>Network Scanning</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-globe"></i>
+                                <span>Web Security</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-bug"></i>
+                                <span>Exploitation Framework</span>
+                            </div>
+                            <div class="feature">
+                                <i class="fas fa-key"></i>
+                                <span>Password Security</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/yasohm/yassin-hack-Tools" class="btn btn-primary" target="_blank">
+                                <i class="fab fa-github"></i>
+                                View on GitHub
+                            </a>
+                            <button class="btn btn-secondary" onclick="showDisclaimer()">
+                                <i class="fas fa-info-circle"></i>
+                                Important Disclaimer
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <div class="terminal-window">
+                            <div class="terminal-header">
+                                <div class="terminal-buttons">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <span class="terminal-title">yassin_hackTools</span>
+                            </div>
+                            <div class="terminal-content">
+                                <div class="terminal-line">
+                                    <span class="prompt">$</span>
+                                    <span class="command">./run.sh</span>
+                                </div>
+                                <div class="terminal-line">
+                                    <span class="output">Yassin Hack Tools v2.0</span>
+                                </div>
+                                <div class="terminal-line">
+                                    <span class="output">Loading security tools...</span>
+                                </div>
+                                <div class="terminal-line">
+                                    <span class="output">20+ tools ready for ethical testing</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Other Projects -->
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h4>Web Applications</h4>
+                    <p>Full-stack development projects using modern web technologies</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h4>Security Tools</h4>
+                    <p>Custom cybersecurity utilities and ethical hacking tools</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Linux</span>
+                        <span>Bash</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h4>Mobile Apps</h4>
+                    <p>Cross-platform mobile development applications</p>
+                    <div class="project-tech">
+                        <span>C#</span>
+                        <span>.NET</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h4>Game Development</h4>
+                    <p>Unity-based game development projects</p>
+                    <div class="project-tech">
+                        <span>C#</span>
+                        <span>Unity</span>
+                        <span>3D Graphics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect!</h3>
+                    <p>
+                        I'm always interested in new opportunities, collaborations, and interesting projects. 
+                        Feel free to reach out if you'd like to work together or just want to say hello!
+                    </p>
+                    <div class="contact-methods">
+                        <a href="mailto:benhaidayassine1@gmail.com" class="contact-method">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>benhaidayassine1@gmail.com</p>
+                            </div>
+                        </a>
+                        <a href="https://linkedin.com/in/yassin-benhaida" class="contact-method" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>yassin-benhaida</p>
+                            </div>
+                        </a>
+                        <a href="https://github.com/yasohm" class="contact-method" target="_blank">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p>yasohm</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" name="subject" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary" id="submitBtn">
+                            <i class="fas fa-paper-plane"></i>
+                            <span>Send Message</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>&copy; 2024 Yassin Benhaida. Made with ❤️ and lots of ☕</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/yasohm" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/yassin-benhaida" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:benhaidayassine1@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Disclaimer Modal -->
+    <div id="disclaimerModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>⚠️ Important Disclaimer</h3>
+                <span class="close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <p><strong>Yassin Hack Tools</strong> is designed for <strong>educational purposes</strong> and <strong>authorized security testing only</strong>.</p>
+                <p>Users are responsible for ensuring they have proper authorization before testing any systems. This tool should only be used on systems you own or have explicit permission to test.</p>
+                <p>Remember: With great power comes great responsibility! 🕷️</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
